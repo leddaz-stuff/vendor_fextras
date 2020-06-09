@@ -17,5 +17,8 @@ LOCAL_PATH := vendor/fextras
 PRODUCT_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+PRODUCT_PACKAGES += \
+    Lawnchair
+
 # Inherit from audio config
 $(call inherit-product, vendor/fextras/config/audio.mk)
