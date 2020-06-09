@@ -20,5 +20,8 @@ PRODUCT_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     Lawnchair
 
+# Inherit from fonts config
+$(call inherit-product, vendor/fextras/config/fonts.mk)
+
 # Inherit from audio config
 $(call inherit-product, vendor/fextras/config/audio.mk)
