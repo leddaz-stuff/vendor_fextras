@@ -18,7 +18,8 @@ PRODUCT_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
 PRODUCT_PACKAGES += \
-    Lawnchair
+    Lawnchair \
+    wellbeingconf
 
 # Inherit from fonts config
 $(call inherit-product, vendor/fextras/config/fonts.mk)
