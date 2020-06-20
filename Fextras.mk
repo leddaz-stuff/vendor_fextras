@@ -19,7 +19,8 @@ PRODUCT_PACKAGE_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
     Lawnchair \
-    wellbeingconf
+    wellbeingconf \
+    googleconf
 
 # Inherit from fonts config
 $(call inherit-product, vendor/fextras/config/fonts.mk)
