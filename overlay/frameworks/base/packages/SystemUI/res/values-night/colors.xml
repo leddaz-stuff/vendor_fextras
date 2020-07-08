@@ -25,6 +25,9 @@
     <!-- The color of the background in the bottom part of QSCustomizer -->
     <color name="qs_customize_decoration">#ff000000</color>
 
+    <!-- The color of the divider in ListPreference -->
+    <color name="list_divider_color_light">#ff242424</color>
+
     <!-- The color of the material notification background when dimmed -->
     <color name="notification_material_background_dimmed_color">#FF121212</color>
 
