@@ -1,5 +1,5 @@
 <fonts-modification version="1">
-    <family customizationType="new-named-family" name="fluid-sans">
+    <family customizationType="new-named-family" name="sans-serif">
         <font weight="400" style="normal">FluidSans-Regular.ttf</font>
         <font weight="400" style="italic">FluidSans-Italic.ttf</font>
         <font weight="500" style="normal">FluidSans-Medium.ttf</font>
@@ -7,7 +7,7 @@
         <font weight="700" style="normal">FluidSans-Bold.ttf</font>
         <font weight="700" style="italic">FluidSans-BoldItalic.ttf</font>
     </family>
-    <alias name="fluid-sans-medium" to="fluid-sans" weight="500" />
+    <alias name="sans-serif-medium" to="sans-serif" weight="500" />
 
     <family customizationType="new-named-family" name="arbutus-slab">
       <font weight="400" style="normal">ArbutusSlab-Regular.ttf</font>
