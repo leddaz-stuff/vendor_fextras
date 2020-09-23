@@ -30,3 +30,6 @@ $(call inherit-product, vendor/fextras/config/fonts.mk)
 
 # Inherit from audio config
 $(call inherit-product, vendor/fextras/config/audio.mk)
+
+# Include bootanimation
+include vendor/fextras/bootanimation/bootanimation.mk
