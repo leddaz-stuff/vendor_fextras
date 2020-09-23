@@ -14,4 +14,16 @@
 
 LOCAL_PATH:= $(call my-dir)
 
-# Nothing
+# Pixel Launcher
+include $(CLEAR_VARS)
+LOCAL_MODULE := NexusLauncherRelease
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := NexusLauncherRelease.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_CLASS := APPS
+LOCAL_SYSTEM_EXT_MODULE := true
+LOCAL_OVERRIDES_PACKAGES := Launcher3 Launcher3QuickStep
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
+

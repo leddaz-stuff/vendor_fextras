@@ -18,8 +18,12 @@ PRODUCT_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
 PRODUCT_PACKAGES += \
+    NexusLauncherRelease \
     wellbeingconf \
     googleconf
+
+PRODUCT_COPY_FILES += \
+    vendor/fextras/etc/privapp-permissions-pixellauncher.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-pixellauncher.xml
 
 # Inherit from fonts config
 $(call inherit-product, vendor/fextras/config/fonts.mk)
