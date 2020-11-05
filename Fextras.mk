@@ -24,7 +24,8 @@ PRODUCT_PACKAGES += \
     googleconf
 
 PRODUCT_COPY_FILES += \
-    vendor/fextras/etc/privapp-permissions-pixellauncher.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-pixellauncher.xml
+    vendor/fextras/etc/privapp-permissions-pixellauncher.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-pixellauncher.xml \
+    vendor/fextras/etc/googlesysconfig.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google.xml
 
 # Inherit from fonts config
 $(call inherit-product, vendor/fextras/config/fonts.mk)
