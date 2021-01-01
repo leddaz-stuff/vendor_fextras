@@ -18,13 +18,12 @@ PRODUCT_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
 PRODUCT_PACKAGES += \
-    NexusLauncherRelease \
     TurboPrebuilt \
     wellbeingconf \
     googleconf
 
 PRODUCT_COPY_FILES += \
-    vendor/fextras/etc/privapp-permissions-pixellauncher.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-pixellauncher.xml \
+    vendor/fextras/etc/privapp-permissions-elgoog.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-elgoog.xml \
     vendor/fextras/etc/googlesysconfig.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google.xml
 
 # Inherit from fonts config
