@@ -17,6 +17,8 @@ LOCAL_PATH := vendor/fextras
 PRODUCT_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/fextras/overlay
+
 PRODUCT_PACKAGES += \
     TurboPrebuilt \
     wellbeingconf \
