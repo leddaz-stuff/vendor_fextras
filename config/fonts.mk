@@ -58,5 +58,16 @@ PRODUCT_PACKAGES += \
     SlateForOnePlus-Medium.ttf \
     SlateForOnePlus-Regular.ttf
 
+# red-hat-display family
+PRODUCT_PACKAGES += \
+    RedHatDisplay-BlackItalic.ttf \
+    RedHatDisplay-Black.ttf \
+    RedHatDisplay-BoldItalic.ttf \
+    RedHatDisplay-Bold.ttf \
+    RedHatDisplay-Italic.ttf \
+    RedHatDisplay-MediumItalic.ttf \
+    RedHatDisplay-Medium.ttf \
+    RedHatDisplay-Regular.ttf
+
 PRODUCT_COPY_FILES += \
     vendor/fextras/fonts/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
