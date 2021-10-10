@@ -16,7 +16,9 @@
 ** limitations under the License.
 */
 -->
+
 <resources>
+
     <!-- When true enable gesture setting. -->
     <bool name="config_gesture_settings_enabled">true</bool>
 
@@ -28,4 +30,5 @@
 
     <!-- Whether or not homepage should display user's account avatar -->
     <bool name="config_show_avatar_in_homepage">true</bool>
+
 </resources>
