@@ -1,0 +1,35 @@
+android_library_import  {
+    name: "FluidUI",
+    aars: ["FluidUI-release.aar"],
+    sdk_version: "system_current",
+    min_sdk_version: "30",
+    static_libs: [
+        "androidx.core_core",
+        "androidx.appcompat_appcompat",
+        "androidx.preference_preference",
+        "com.google.android.material_material",
+        "kotlinx-coroutines-core",
+        "kotlinx-coroutines-android",
+    ],
+    apex_available: [
+        "//apex_available:anyapex",
+        "//apex_available:platform",
+    ],
+}
+
+android_library_import  {
+    name: "FluidUI-ext",
+    aars: ["FluidUI-ext-release.aar"],
+    sdk_version: "system_current",
+    min_sdk_version: "30",
+    static_libs: [
+        "androidx.appcompat_appcompat",
+        "kotlinx-coroutines-android",
+        "FluidUI",
+        "lottie",
+    ],
+    apex_available: [
+        "//apex_available:anyapex",
+        "//apex_available:platform",
+    ],
+}
