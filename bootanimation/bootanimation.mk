@@ -11,4 +11,4 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
-    vendor/fextras/bootanimation/bootanimation.zip:$(TARGET_COPY_OUT_SYSTEM)/media/bootanimation.zip
+    vendor/fextras/bootanimation/bootanimation.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
